@@ -1,0 +1,73 @@
+a {
+  text-decoration: none;
+  color: $black;
+  &:hover {
+    color: $black;
+  }
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.home-container {
+  width: 50%;
+  margin: 100px auto 0px auto;
+}
+
+.home-button{
+  padding: 100px 50px !important;
+  background-color: $light-grey;
+}
+
+.right {
+  float: right;
+}
+
+.add-book-container {
+  text-align: center;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.book-cover-image {
+  width: 75%;
+  margin: 0px auto;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 0px auto;
+  background-color: $grey;
+}
+
+.collection-container {
+  width: 100%;
+  text-align: center;
+}
+
+.books-container {
+  width: 50%;
+  margin: 0px auto 100px auto;
+  text-align: center;
+}
+
+.book-wrapper {
+  box-sizing: border-box;
+  background-color: $light-grey;
+  padding: 5px;
+  margin: 10px;
+}
+
+// .book-container {
+//   text-align: center;
+//   background-color: $light-grey;
+// }

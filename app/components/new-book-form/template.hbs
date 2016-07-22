@@ -1,0 +1,11 @@
+{{new-book-title title=book.title}}
+{{new-book-author author=book.author}}
+{{new-book-description description=book.description}}
+{{new-book-cover cover_img=book.cover_img}}
+
+<button type="submit" class="btn btn-primary" {{action "submit"}} on="click">
+  Submit
+</button>
+<button class="btn btn-default" {{action "reset"}} on="click">
+  Cancel
+</button>

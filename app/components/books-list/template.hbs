@@ -1,0 +1,14 @@
+{{#link-to 'book' book}}
+  <div class="col-sm-12 book-wrapper">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="book-cover-image" src={{book.cover_img}} alt="Book Cover Image">
+      </div>
+      <div class="col-sm-6">
+        <h3>{{book.title}}</h3>
+        <h4>{{book.author}}</h4>
+        <p>{{book.description}}</p>
+      </div>
+    </div>
+  </div>
+{{/link-to}}

@@ -1,0 +1,8 @@
+<div class="container-fluid collection-container">
+  <h2 class="">My Book Collection</h2>
+  <div class="row books-container">
+    {{#each model as |book|}}
+      {{books-list book=book}}
+    {{/each}}
+  </div>
+</div>
