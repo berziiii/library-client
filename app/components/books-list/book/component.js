@@ -1,10 +1,11 @@
 import Ember from 'ember';
-
 export default Ember.Component.extend({
-
   actions: {
-    delete () {
-      this.sendAction('deleteBook', this.get('book'));
-    },
-  }
+    delete() {
+      this.get('book').destroyRecord()
+      .then(() => {
+         this.sendAction('goToCollection');
+       });
+    }
+  },
 });

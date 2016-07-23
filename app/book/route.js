@@ -5,9 +5,12 @@ export default Ember.Route.extend({
    return this.get('store').findRecord('book', params.id);
  },
 
- deleteBook() {
-   this.deleteRecord()
-   .then(() => this.transitionTo('Books'));
- }
+ actions: {
+
+   goToCollection () {
+      this.transitionTo('books');
+    },
+
+  }
 
 });

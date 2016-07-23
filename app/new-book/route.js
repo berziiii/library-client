@@ -4,8 +4,8 @@ export default Ember.Route.extend({
   // flashMessages: Ember.inject.service(),
 
   actions: {
+
     createBook (data) {
-      console.log(data);
       let book = this.get('store').createRecord('book', data);
       return book.save()
       .then(() => this.transitionTo('books'));
