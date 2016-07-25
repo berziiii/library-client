@@ -1,5 +1,5 @@
 <div class="col-sm-12 book-wrapper">
-  <!-- <button class="btn alert-warning" {{action "updateBook"}}>Edit Book</button> -->
+  {{#link-to 'edit-book' book.id class="btn alert-warning"}}Edit Book{{/link-to}}
   <button class="btn alert-danger" {{action "delete"}}>Remove Book</button>
   <h2>{{book.title}}</h2>
   <div class="row">
