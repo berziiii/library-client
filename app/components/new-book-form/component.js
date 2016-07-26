@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  tagName: 'form',
+  tagName: ['form'],
   // classNames: ['form-horizontal'],
   // auth: Ember.inject.service(),
 
