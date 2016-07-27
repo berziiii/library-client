@@ -1,7 +1,7 @@
 {
-  "name": "ember-template",
+  "name": "library-client",
   "version": "0.0.0",
-  "description": "Small description for ember-template goes here",
+  "description": "Small description for library-client goes here",
   "private": true,
   "directories": {
     "doc": "doc",
